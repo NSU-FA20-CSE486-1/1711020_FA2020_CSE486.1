@@ -2,4 +2,7 @@
     <string name="app_name">SignInActivity</string>
     <string name="toast_message">Login Succesful!</string>
     <string name="toast_message_fail">Login failed!</string>
+    <string name="label_email">Email:</string>
+    <string name="label_password">Password:</string>
+    <string name="label_text_login">LOGIN</string>
 </resources>
