@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SignInActivity</string>
+    <string name="toast_message">Login Succesful!</string>
+    <string name="toast_message_fail">Login failed!</string>
+    <string name="label_email">Email:</string>
+    <string name="label_password">Password:</string>
+    <string name="label_text_login">LOGIN</string>
+    <string name="show_message">show_message</string>
+    <string name="button_logout_label">Logout</string>
+    <string name="toast_message_logout">Logout succesful!</string>
+</resources>
