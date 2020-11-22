@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8E9C6"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/Cheese"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Cheese"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Apple"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Apple"
+        android:onClick="selectItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toEndOf="@+id/Cheese"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Strawberry"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Strawberry"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Cheese"
+        app:layout_constraintTop_toBottomOf="@+id/Cheese" />
+
+    <Button
+        android:id="@+id/Tomato"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Tomato"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Apple"
+        app:layout_constraintTop_toBottomOf="@+id/Apple" />
+
+    <Button
+        android:id="@+id/Bread"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Bread"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Strawberry"
+        app:layout_constraintTop_toBottomOf="@+id/Strawberry" />
+
+    <Button
+        android:id="@+id/Chicken"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Chicken"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Tomato"
+        app:layout_constraintTop_toBottomOf="@+id/Tomato" />
+
+    <Button
+        android:id="@+id/Juice"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Juice"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Bread"
+        app:layout_constraintTop_toBottomOf="@+id/Bread" />
+
+    <Button
+        android:id="@+id/Beef"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Beef"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Chicken"
+        app:layout_constraintTop_toBottomOf="@+id/Chicken" />
+
+    <Button
+        android:id="@+id/Mutton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Mutton"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Juice"
+        app:layout_constraintTop_toBottomOf="@+id/Juice" />
+
+    <Button
+        android:id="@+id/Carrot"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Carrot"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Beef"
+        app:layout_constraintTop_toBottomOf="@+id/Beef" />
+
+    <Button
+        android:id="@+id/Butter"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Butter"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Mutton"
+        app:layout_constraintTop_toBottomOf="@+id/Mutton" />
+
+    <Button
+        android:id="@+id/Jam"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Jam"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Carrot"
+        app:layout_constraintTop_toBottomOf="@+id/Carrot" />
+
+    <Button
+        android:id="@+id/Potato"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Potato"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintStart_toStartOf="@+id/Butter"
+        app:layout_constraintTop_toBottomOf="@+id/Butter" />
+
+    <Button
+        android:id="@+id/Wheat"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Wheat"
+        android:onClick="selectItem"
+        android:backgroundTint="#2A7C42"
+        app:layout_constraintEnd_toEndOf="@+id/Jam"
+        app:layout_constraintTop_toBottomOf="@+id/Jam" />
+</androidx.constraintlayout.widget.ConstraintLayout>
